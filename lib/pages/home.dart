@@ -60,9 +60,7 @@ class _HomeState extends State<Home> {
               ),
             ),
 
-            Divider(
-              color: Colors.grey[800],
-            ),
+            const SizedBox(height: 20),
 
             //pages
             const Padding(
@@ -92,7 +90,8 @@ class _HomeState extends State<Home> {
               ),
             ),
             //Spacer widget pushes everything to the bottom
-            Spacer(),
+            const Spacer(),
+
             const Padding(
               padding: EdgeInsets.only(left: 25.0),
               child: ListTile(
@@ -105,6 +104,9 @@ class _HomeState extends State<Home> {
                   style: TextStyle(color: Colors.white),
                 ),
               ),
+            ),
+            const SizedBox(
+              height: 25,
             ),
           ],
         ),
